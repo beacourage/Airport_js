@@ -20,6 +20,9 @@ describe('Fizzbuzz', function(){
     it('Gives buzz with 5', function(){
       expect(fizzbuzz.play(5)).toEqual('Buzz');
     });
+    it('Gives buzz with 20', function(){
+      expect(fizzbuzz.play(20)).toEqual('Buzz');
+    });
   });
 
 });
