@@ -6,7 +6,9 @@ Fizzbuzz.prototype.divisibleby = function(divisor, number) {
 }
 
 Fizzbuzz.prototype.play = function(number){
-  if (this.divisibleby(3,number)){
+  if (this.divisibleby(15,number)){
+    return 'Fizzbuzz'
+  } else if (this.divisibleby(3,number)){
     return 'Fizz';
   } else if (this.divisibleby(5,number)){
     return 'Buzz';

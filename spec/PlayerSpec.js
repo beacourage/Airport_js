@@ -25,4 +25,10 @@ describe('Fizzbuzz', function(){
     });
   });
 
+  describe('Multiples of 3 and 5', function(){
+    it('Gives fizzbuzz with 30', function(){
+      expect(fizzbuzz.play(30)).toEqual('Fizzbuzz');
+    });
+  });
+
 });
