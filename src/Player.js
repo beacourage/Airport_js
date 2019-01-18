@@ -17,5 +17,17 @@ Fizzbuzz.prototype.play = function(number){
   }
 }
 
+var fizzBuzz = new Fizzbuzz();
+
+for (var i = 1; i <= 100; i++) {
+  // document.body(fizzBuzz.play(i));
+
+document.getElementById("parentID").innerHTML+= fizzBuzz.play(i);
+}
+
+// i grabbed the body of index.html file and added fizzbuzz.play(i) to it!
+
+
+
 
 // created a Fizzbuzz object with a method play(number)
