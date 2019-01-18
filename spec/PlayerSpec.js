@@ -29,6 +29,9 @@ describe('Fizzbuzz', function(){
     it('Gives fizzbuzz with 30', function(){
       expect(fizzbuzz.play(30)).toEqual('Fizzbuzz');
     });
+    it ('Gives fizzbuzz with 45', function(){
+      expect(fizzbuzz.play(45)).toEqual('Fizzbuzz');
+    });
   });
 
 });
